@@ -2,26 +2,26 @@
 class Dbdiff < Formula
   desc "Compare PostgreSQL, MySQL and SQL Server schemas and generate migration SQL"
   homepage "https://github.com/Meru143/dbdiff"
-  version "1.1.4"
+  version "1.1.5"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Meru143/dbdiff/releases/download/v1.1.4/dbdiff_1.1.4_darwin_arm64.tar.gz"
-      sha256 "5a06bc75e90b17c68056c57de04f742f3f326c2816b5bbd359e90738bb7c44c9"
+      url "https://github.com/Meru143/dbdiff/releases/download/v1.1.5/dbdiff_1.1.5_darwin_arm64.tar.gz"
+      sha256 "c02399045b993b10d1151aff664817579db61c91a9563c9015dc81a018d724a5"
     else
-      url "https://github.com/Meru143/dbdiff/releases/download/v1.1.4/dbdiff_1.1.4_darwin_amd64.tar.gz"
-      sha256 "e0ae967ece8bfeba25399fda62bfea0ebc42e00abe5bd6654b2cfcf2b644aa13"
+      url "https://github.com/Meru143/dbdiff/releases/download/v1.1.5/dbdiff_1.1.5_darwin_amd64.tar.gz"
+      sha256 "f39336b6562405b3dd8e6ce68b5bad794369ce2f70e43993e1dd323b75e97c49"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/Meru143/dbdiff/releases/download/v1.1.4/dbdiff_1.1.4_linux_arm64.tar.gz"
-      sha256 "2d8de6ebe33fc8c100dbe631079216c994701b1d088674d10657a967ff89c19f"
+      url "https://github.com/Meru143/dbdiff/releases/download/v1.1.5/dbdiff_1.1.5_linux_arm64.tar.gz"
+      sha256 "41a3c13492f8ec6456729c2969145719a270f2d3e24b6208ffcfe15ffffcdc7a"
     else
-      url "https://github.com/Meru143/dbdiff/releases/download/v1.1.4/dbdiff_1.1.4_linux_amd64.tar.gz"
-      sha256 "bfbb4bf998f2c6eb780f7d949b1469e42410b8b3bd02dea185ebd5a795139f25"
+      url "https://github.com/Meru143/dbdiff/releases/download/v1.1.5/dbdiff_1.1.5_linux_amd64.tar.gz"
+      sha256 "b2bde7c5ec10947f32f14c4c85586094e3a89695b52e02a806fafbdcf05d06bf"
     end
   end
 
